@@ -53,6 +53,7 @@ Link the the [Github STLs](https://github.com/PrusaOwners/s3l3ctor) (Please plea
 |Mk8 Gears| 6 | [Amazon](<https://www.amazon.com/BALITENSEN-Direct-Extruder-Reprap-Effective/dp/B07792SHML/ref=sr_1_5?ie=UTF8&qid=1533246923&sr=8-5&keywords=mk8+gear>) |
 |Pc4-M10 fittings, pass through or drill them out | 7| soon^tm|
 |PTFE tubing ID 2mm OD 4mm | couple meters | [ebay](<https://www.ebay.com/itm/PTFE-Bowden-Teflon-Tube-1-75-Filament-3D-printer-RepRap-Rostock-Kossel/162932641530?hash=item25ef8acefa%3Am%3Amv4vboRH9_rfasJIsMfowVw%3Asc%3AUSPSFirstClass%2194087%21US%21-1&var=462001182875&_sacat=0&_nkw=teflong+tube+3d+printer&_from=R40&rt=nc&_trksid=m570.l1313&LH_TitleDesc=0%7C0>) |
+|5mm rod 100mm+ long| 2x|https://www.amazon.com/Uxcell-a15113000ux1223-150mm-Model-Straight/dp/B01B5QTM8I/ref=sr_1_6?ie=UTF8&qid=1535987871&sr=8-6&keywords=5mm+rod|
 
 ## Electronics:
 
