@@ -1,4 +1,4 @@
-This is S3l3ctor, an open source, sub $100, 6 chroma filament selector system currently under development. You can print any color (up to 6) you want without changing your extruder design.
+This is S3l3ctor, an open source 6 chroma filament selector system currently under development. You can print any color (up to 6) you want without changing your extruder design.
 
 
 
