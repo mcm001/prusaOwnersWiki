@@ -1,9 +1,6 @@
 This is S3l3ctor, an open source 6 chroma filament selector system currently under development. You can print any color (up to 6) you want without changing your extruder design.
 
 
-
-[PLA bearings](PLA_bearings "wikilink")
-
 S3l3ctor is:
 * A 100% open source filament selector
 * Costs under $120
