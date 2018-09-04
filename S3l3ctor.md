@@ -76,12 +76,22 @@ For a RAMPS setup: Set of RAMPS plus at least 2x A4988s (usually 5x) plus Mega E
 
 ### Shaft preperation
 
-Begin by filing, grinding or otherwise abrating a flat a mm or two deep (doesn't really matter), and about 5mm long. While you have the shaft out, make sure that your 625 bearings will slide smoothly along the shaft. They shouldn't slide smoothly like a linear bearing, but at the same time they should not need pounding. A more scientific way to quantify this is with a calipers - if the bearings' ID is more than 30 micron undersized (4.97mm or so), the fit on the 5mm rod is going to be close. Like, probubly too close. I reccomend measuring bearings and 
+Begin by filing, grinding or otherwise abrating a flat a mm or two deep (doesn't really matter), and about 5mm long. While you have the shaft out, make sure that your 625 bearings will slide smoothly along the shaft. They shouldn't slide smoothly like a linear bearing, but at the same time they should not need pounding. A more scientific way to quantify this is with a calipers - if the bearings' ID is more than 30 micron undersized (4.97mm or so), the fit on the 5mm rod is going to be close. Like, probubly too close. I recomend measuring bearings and finding the best ones, and saving the best 3 for these next steps.
 
 <img src="images/AssembledTumbler.JPG" title="AssembledTumbler.JPG" alt="AssembledTumbler.JPG" height="400" />
 
 ## Main Body
 
-## Magic Mushroom
+
+### Prusa frame clip mount
+If you have an M3 tap, use it to clean up the clip mounts on the bottom of the main body. If not, just use 4x M3x16mm bolts to secure the clips as shown.
+<img src="https://github.com/mcm001/prusaOwnersWiki/blob/master/images/ClipFrameMoutning.JPG" height="400" />
+
+### Main body bearings
+
+### Drive gears
+
+
+## Magic Mushroom splitter and bowden tubes
 
 ## Electronics
