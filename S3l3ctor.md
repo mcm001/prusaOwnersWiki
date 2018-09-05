@@ -88,6 +88,9 @@ If you have an M3 tap, use it to clean up the clip mounts on the bottom of the m
 <img src="https://github.com/mcm001/prusaOwnersWiki/blob/master/images/ClipFrameMoutning.JPG" height="400" />
 
 ### Main body bearings
+Press two of the closed tolerenced bearings you found into the two ends of the drive gear path as shown in the below picture. If you can't get them flush use pipe grips or pliers to push them in until flush.
+
+<img src="https://github.com/mcm001/prusaOwnersWiki/blob/master/images/MainBodyWithDriveGears.JPG" height="300" />
 
 ### Drive gears
 <img src="https://raw.githubusercontent.com/mcm001/prusaOwnersWiki/master/images/DriveGearPlacement.JPG" height="400" />
