@@ -90,7 +90,7 @@ If you have an M3 tap, use it to clean up the clip mounts on the bottom of the m
 ### Main body bearings
 
 ### Drive gears
-
+<img src="https://raw.githubusercontent.com/mcm001/prusaOwnersWiki/master/images/DriveGearPlacement.JPG height="400" />
 
 ## Magic Mushroom splitter and bowden tubes
 
