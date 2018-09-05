@@ -85,16 +85,27 @@ Begin by filing, grinding or otherwise abrating a flat a mm or two deep (doesn't
 
 ### Prusa frame clip mount
 If you have an M3 tap, use it to clean up the clip mounts on the bottom of the main body. If not, just use 4x M3x16mm bolts to secure the clips as shown.
+
 <img src="https://github.com/mcm001/prusaOwnersWiki/blob/master/images/ClipFrameMoutning.JPG" height="400" />
 
-### Main body bearings
-Press two of the closed tolerenced bearings you found into the two ends of the drive gear path as shown in the below picture. If you can't get them flush use pipe grips or pliers to push them in until flush.
+### Main body bearings and rods
+Using an abrasive tool such as dremel or file, grind a flat about 1mm deep along the whole length of the rod (at least 100mm). Slide 6x Mk8 drive gears onto the rod and set it aside.
+
+Press one of the closed tolerenced bearings you found into the motor side end of the drive gear path. Make sure it's flush - if it's not, use a pair of pipe grips or pliers or blunt object to push it in. Now take the 5mm rod with Mk8 gears on it and push it in from the far (Non-motor) side to the bearing - not all the way, but enought to have say 10mm sticking out on the motor side. Now slide the second close tolerence bearing onto the shaft (non-motor side again) and press flush against the main body (using tools if necessary). The whole assembly should look like this:
 
 <img src="https://github.com/mcm001/prusaOwnersWiki/blob/master/images/MainBodyWithDriveGears.JPG" height="300" />
 
-### Drive gears
+
+### Drive gear allignment
+
+Use a scrap piece of filament as shown below to fine tune drive gear allignment. insert the filament through one hole in the front and out the back, starting on the left. Allign the drive gear left to right on the rod, and then turn the flat side of the rod and set screw on the gear so they both face up and tighten down with an allen key. Make sure the gear does not wiggle on the rod (that would be bad).
+
 <img src="https://raw.githubusercontent.com/mcm001/prusaOwnersWiki/master/images/DriveGearPlacement.JPG" height="400" />
 
 ## Magic Mushroom splitter and bowden tubes
+
+The Magic Shroom needs some love at this point. The printed PC4-m10 threads are often pretty messy and making the PC4-M10 press fit fittings fit can take some work. If necessary, be sure to drill out the fittings so that a 4mm bowden tube can pass through all the way. 
+
+Cut the 7x bowden tubes to their requisite lengths. 
 
 ## Electronics
