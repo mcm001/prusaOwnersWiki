@@ -129,4 +129,5 @@ Cut the 7x bowden tubes to their requisite lengths.
 
 ## Electronics
 
+Hook up the two stepper motors and endstop to the RAMPS. 
 
