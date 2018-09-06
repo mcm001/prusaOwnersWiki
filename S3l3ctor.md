@@ -4,18 +4,21 @@ Table of Contents
 =================
 
    * [BOM](#bom)
-      * [Printed Parts:]()
-      * [Hardware:]()
-      * [Electronics:]()
-   * [Assembly]()
-      * [Tumbler]()
-         * [Shaft preperation]()
-      * [Main Body]()
-         * [Prusa frame clip mount]()
-         * [Main body bearings and rods]()
-         * [Drive gear allignment]()
-      * [Magic Mushroom splitter and bowden tubes]()
-      * [Electronics]()
+      * [Printed Parts:](#printed-parts)
+      * [Hardware:](#hardware)
+      * [Electronics:](#electronics)
+   * [Assembly](#assembly)
+      * [Tumbler](#tumbler)
+         * [Shaft preperation](#shaft-preperation)
+         * [Motor End Assembly](#motor-end-assembly)
+         * [Tumbler Assembly](#tumbler-assembly)
+      * [Main Body](#main-body)
+         * [Prusa frame clip mount](#prusa-frame-clip-mount)
+         * [Main body bearings and rods](#main-body-bearings-and-rods)
+         * [Drive gear allignment](#drive-gear-allignment)
+         * [Final Assembly](#final-assembly)
+      * [Magic Mushroom splitter and bowden tubes](#magic-mushroom-splitter-and-bowden-tubes)
+      * [Electronics](#electronics)
 
 S3l3ctor is:
 * A 100% open source filament selector
@@ -92,12 +95,28 @@ For a RAMPS setup: Set of RAMPS plus at least 2x A4988s (usually 5x) plus Mega E
 
 ### Shaft preperation
 
-Begin by filing, grinding or otherwise abrating a flat a mm or two deep (doesn't really matter), and about 5mm long. While you have the shaft out, make sure that your 625 bearings will slide smoothly along the shaft. They shouldn't slide smoothly like a linear bearing, but at the same time they should not need pounding. A more scientific way to quantify this is with a calipers - if the bearings' ID is more than 30 micron undersized (4.97mm or so), the fit on the 5mm rod is going to be close. Like, probubly too close. I recomend measuring bearings and finding the best ones, and saving the best 3 for these next steps.
+Begin by filing, grinding or otherwise abrating a flat a mm or two deep (doesn't really matter), and about 10mm long. While you have the shaft out, make sure that your 625 bearings will slide smoothly along the shaft. They shouldn't slide smoothly like a linear bearing, but at the same time they should not need pounding. A more scientific way to quantify this is with a calipers - if the bearings' ID is more than 30 micron undersized (4.97mm or so), the fit on the 5mm rod is going to be close. Like, probubly too close. I recomend measuring bearings and finding the best ones, and saving the best 3 for these next steps.
 
-<img src="images/AssembledTumbler.JPG" title="AssembledTumbler.JPG" alt="AssembledTumbler.JPG" height="400" />
+
+### Motor End Assembly
+
+Using 3x M3x10mm bolts, secure a stepper motor to the motor end mount. I suggest pointing the wires toward the endstop holder. Next, prepare the endstop by soldering wires to the two outer prongs on the endstop. Gently press the endstop into the holder with the lever end pointed toward the motor shaft as shown. Finally, insert a m3 square nut into the tumbler motor end part (with the endstop whacker) and slide it onto the motor  with the set screw and d-shaft flat lined up. The D shaft should stick up through the printed part and be almost flush with the male prongs. Secure it with a short (say 6mm) m3 screw and set it aside.
+
+<img src="https://github.com/mcm001/prusaOwnersWiki/blob/master/images/Tumbler%20Motor%20End.JPG" height="300" />
+
+### Tumbler Assembly
+
+Remove all supports from the tumbler pieces, making sure that the 625 bearing will spin smoothly in the hole if you put the pin in. If not, file it down until it does - it's not rocket science, and the tumbler doesn't mind :D
+Mount 6x tumbler parts onto the 5mm x 100mm rod with the small flat in it, making sure they are flush against each other and the orientation is correct. Each one should be offset about 30 degrees from it's neighbors, and the peg (male side) of the tumblers should point away from the flat you ground earlier in this rod, as shown.
+
+<img src="https://github.com/mcm001/prusaOwnersWiki/blob/master/images/AssembledTumbler.JPG" height="200"/>
+
+Pipe grips or pliers (the kind that can get really wide) work great for this. If you have trouble getting them onto the rod, champher one end of the rod a bit with a file and put it in a cordless drill and try again (I reccomend this method, as long as you are careful). Next mount the tumbler male end onto the male side of the tumblers, and press it flush. Finally position everything on the rod such that the rod is recessed 10mm into the female side tumbler. Set this aside.
+
+
+<img src="https://github.com/mcm001/prusaOwnersWiki/blob/master/images/Assembled%20Tumbler.JPG" height="300" />
 
 ## Main Body
-
 
 ### Prusa frame clip mount
 If you have an M3 tap, use it to clean up the clip mounts on the bottom of the main body. If not, just use 4x M3x16mm bolts to secure the clips as shown.
@@ -114,9 +133,13 @@ Press one of the closed tolerenced bearings you found into the motor side end of
 
 ### Drive gear allignment
 
-Use a scrap piece of filament as shown below to fine tune drive gear allignment. insert the filament through one hole in the front and out the back, starting on the left. Allign the drive gear left to right on the rod, and then turn the flat side of the rod and set screw on the gear so they both face up and tighten down with an allen key. Make sure the gear does not wiggle on the rod (that would be bad).
+Use a scrap piece of filament as shown below to fine tune drive gear allignment. insert the filament through one hole in the front and out the back, starting on the left. Allign the drive gear left to right on the rod, and then turn the flat side of the rod and set screw on the gear so they both face up and tighten down with an allen key. Make sure the gear does not wiggle on the rod (that would be bad). 
 
 <img src="https://raw.githubusercontent.com/mcm001/prusaOwnersWiki/master/images/DriveGearPlacement.JPG" height="400" />
+
+### Final Assembly
+
+Press the tumbler motor end with stepper and endstop into the rest of the tumbler assembly. Take care with the orientation - make sure that when the endstop is triggered, the furthest right bearing (closest to the stepper) is down. Now take this assembly and mount it onto the main body using 2x retainers. The drive gear stepper motor should be directly opposite the tumbler stepper motor. You can optionally secure the retainers with a stupid small M3 bolt. I don't bother as I'm constaltly taking it apart.
 
 ## Magic Mushroom splitter and bowden tubes
 
@@ -125,3 +148,5 @@ The Magic Shroom needs some love at this point. The printed PC4-m10 threads are 
 Cut the 7x bowden tubes to their requisite lengths. 
 
 ## Electronics
+
+
