@@ -3,7 +3,7 @@ This is S3l3ctor, an open source 6 chroma filament selector system currently und
 Table of Contents
 =================
 
-   * [BOM]()
+   * [BOM](#BOM)
       * [Printed Parts:]()
       * [Hardware:]()
       * [Electronics:]()
