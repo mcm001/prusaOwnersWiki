@@ -1,5 +1,21 @@
 This is S3l3ctor, an open source 6 chroma filament selector system currently under development. You can print any color (up to 6) you want without changing your extruder design.
 
+Table of Contents
+=================
+
+   * [BOM]()
+      * [Printed Parts:]()
+      * [Hardware:]()
+      * [Electronics:]()
+   * [Assembly]()
+      * [Tumbler]()
+         * [Shaft preperation]()
+      * [Main Body]()
+         * [Prusa frame clip mount]()
+         * [Main body bearings and rods]()
+         * [Drive gear allignment]()
+      * [Magic Mushroom splitter and bowden tubes]()
+      * [Electronics]()
 
 S3l3ctor is:
 * A 100% open source filament selector
