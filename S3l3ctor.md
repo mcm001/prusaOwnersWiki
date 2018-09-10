@@ -87,7 +87,7 @@ Using 3x M3x10mm bolts, secure a stepper motor to the motor end mount. I suggest
 ### Tumbler Assembly
 
 Remove all supports from the tumbler pieces, making sure that the 625 bearing will spin smoothly in the hole if you put the pin in. If not, file it down until it does - it's not rocket science, and the tumbler doesn't mind :D
-Mount 6x tumbler parts onto the 5mm x 100mm rod with the small flat in it, making sure they are flush against each other and the orientation is correct. Each one should be offset about 30 degrees from it's neighbors, and the peg (male side) of the tumblers should point away from the flat you ground earlier in this rod, as shown.
+Mount 6x tumbler parts onto the 5mm x 100mm rod with the small flat in it, making sure they are flush against each other and the orientation is correct. Each one should be offset about 30 degrees from it's neighbors, and the peg (male side) of the tumblers should point away from the flat you ground earlier in this rod, as shown. **Revision for V75+ parts** start by securing the two end pieces to a tumbler in the proper orientation using a short M3 bolt, then follow the rest of the steps.
 
 <img src="https://github.com/mcm001/prusaOwnersWiki/blob/master/images/AssembledTumbler.JPG" height="200"/>
 
@@ -119,7 +119,7 @@ Use a scrap piece of filament as shown below to fine tune drive gear allignment.
 
 ### Final Assembly
 
-Press the tumbler motor end with stepper and endstop into the rest of the tumbler assembly. Take care with the orientation - make sure that when the endstop is triggered, the furthest right bearing (closest to the stepper) is down. Now take this assembly and mount it onto the main body using 2x retainers. The drive gear stepper motor should be directly opposite the tumbler stepper motor. You can optionally secure the retainers with a stupid small M3 bolt. I don't bother as I'm constaltly taking it apart.
+Take a moment to make sure that the orientation of the tumbler assembly is correct. Tool index 6 (closest to the stepper) should be selected (bearing down) when the endstop is triggered, or just about. Now take this assembly and mount it onto the main body using 2x retainers. The drive gear stepper motor should be directly opposite the tumbler stepper motor. You can optionally secure the retainers with a stupid small M3 bolt. I don't bother as I'm constaltly taking it apart. 
 
 ## Magic Mushroom splitter and bowden tubes
 
@@ -129,5 +129,5 @@ Cut the 7x bowden tubes to their requisite lengths.
 
 ## Electronics
 
-Hook up the two stepper motors and endstop to the RAMPS. 
+Hook up the two stepper motors and endstop to the RAMPS. **TODO check which stepper goes where**. Next, hook the endstop to the X axis endstop pin.
 
